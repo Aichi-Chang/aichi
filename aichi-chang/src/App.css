@@ -1,38 +1,57 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap');
+
+#root {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 127%;
+}
+
+.title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 24px;
+  /* or 28px */
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 127%;
+  /* identical to box height, or 36px */
+  color: #1F1F1F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.nav{
+  position: fixed;
+  bottom: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.project {
+  margin: 300px auto 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.first {
+  margin-top: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.project-title {
+  font-size: 24px;
+}
+
+.project-text {
+  font-size: 16px;
+}
+
+.info {
+  background: #EFE6FD;
 }
