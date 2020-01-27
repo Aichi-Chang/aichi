@@ -6,6 +6,8 @@ import 'tachyons'
 import Projects from './components/Projects'
 import TitleSequence from './components/TitleSequence'
 import Information from './components/Information'
+import Contact from './components/Contact'
+import Navs from './components/Navs'
 
 
 function App() {
@@ -17,6 +19,11 @@ function App() {
         <TitleSequence />
         <Projects />
         <Information />
+        <Contact />
+
+      <div className='nav'>
+        <Navs />
+      </div>
 
         {/* <Switch>
         <Route exact path = '/projects' component={Projects} />

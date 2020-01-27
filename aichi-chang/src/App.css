@@ -29,10 +29,15 @@
   color: #1F1F1F;
 }
 
-
-.nav{
+.nav {
   position: fixed;
   bottom: 5%;
+  right: 5%;
+}
+
+.nav-link:hover {
+  color: rgb(146, 128, 223);
+  background-color: rgba(141, 141, 141, 0.096);
 }
 
 .project {
@@ -54,4 +59,57 @@
 
 .info {
   background: #EFE6FD;
+}
+
+
+.icon {
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(80, 80, 80);
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 30px 8px 10px 10px;
+  float: left;
+  padding: 15px;
+}
+
+.text {
+  opacity: 0;
+  transition: opacity ease .3s;
+  margin-bottom:0
+}
+
+.icon-text:hover .text {
+  opacity: 1;
+}
+
+.email {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 127%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .icon {
+    height: 0;
+    opacity: 0;
+  }
+
+  .text {
+    opacity: 1;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 13%;
+  }
+
 }

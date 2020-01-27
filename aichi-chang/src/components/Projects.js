@@ -11,7 +11,7 @@ export default function Projects() {
       <div className='bg-near-white relative flex flex-wrap'>
         
         <div className='absolute top-3 right-2-l right-1-ns flex flex-wrap justify-end items-center mr3'>
-          <h2 className='nav-title dark-gray mr3-l mr3-m'>
+          <h2 className='nav-title dark-gray mr3-l mr3-m f6 f4-l'>
             Full Stack junior web develper based in London
           </h2>
           <h1 className='header mt0 mt3-l mt3-m'>
@@ -37,11 +37,11 @@ export default function Projects() {
             </p>
 
             <div className='flex items-center pt3'>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer bg-near-white mr3'>
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white mr3'>
                 View Site
               </Link>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer bg-near-white'>
-                Gitgub
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white'>
+                Github
               </Link>
             </div>
 
@@ -76,11 +76,11 @@ export default function Projects() {
             </p>
 
             <div className='flex items-center pt3'>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer mr3'>
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3'>
                 View Site
               </Link>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer'>
-                Gitgub
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer'>
+                Github
               </Link>
             </div>
 
@@ -116,11 +116,11 @@ export default function Projects() {
             </p>
 
             <div className='flex items-center pt3'>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer mr3'>
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3'>
                 View Site
               </Link>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer'>
-                Gitgub
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer'>
+                Github
               </Link>
             </div>
 
@@ -157,11 +157,11 @@ export default function Projects() {
             </p>
 
             <div className='flex items-center pt3'>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer mr3'>
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3'>
                 View Site
               </Link>
-              <Link to='' className='ba br2 pt2 pb2 pr3 pl3 no-underline near-black pointer'>
-                Gitgub
+              <Link to='' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer'>
+                Github
               </Link>
             </div>
 
@@ -176,12 +176,6 @@ export default function Projects() {
         
         
       </div>
-
-      <div className='nav w-100'>
-        <Navs />
-      </div>
-      
-      
     </div>
   )
 }

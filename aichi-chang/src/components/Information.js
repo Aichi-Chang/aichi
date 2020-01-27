@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-import { DiJsBadge, DiHtml5, DiCss3Full, DiDjango, DiGithubBadge, DiHeroku, DiMongodb, DiNodejsSmall, DiPostgresql, DiPython, DiReact, DiVisualstudio, DiSass, DiGit } from "react-icons/di"
+import { loadCSS } from 'fg-loadcss'
 
 
 
 export default function Information() {
+
+  useEffect(() => {
+    loadCSS(
+      'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
+    )
+  },[])
+
+
   return (
-    <div className='info vh-100-l relative'>
+    <div className='info relative'>
 
       <div className='flex flex-wrap justify-center'>
         <div className='w-40-l ma4'>
@@ -62,24 +70,76 @@ export default function Information() {
 
         </div>
 
-        <div className='absolute-l left-3 bottom-1'>
-          <h2>PROGRAMMING LANGUAGES</h2>
-            <DiJsBadge />
-            <DiHtml5 />
-            <DiCss3Full />
-            <DiDjango />
-            <DiGithubBadge />
-            <DiHeroku />
-            <DiMongodb />
-            <DiNodejsSmall />
-            <DiPostgresql />
-            <DiPython />
-            <DiReact /> 
-            <DiVisualstudio />
-            <DiSass />
-            <DiGit />
-            Babel
-            Express
+        <div className='ml5-l pl4-l ml3-ns mt3 mb6'>
+          <h2 className='pa3 mb0'>PROGRAMMING LANGUAGES</h2>
+
+          <div className='flex flex-wrap w-60-l'>
+            <div className='tc icon-text'>
+              <span className='devicon-javascript-plain icon'></span>
+              <p className='text'>JavaScript</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-html5-plain plain icon'></span>
+              <p className='text'>HTML5</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-css3-plain icon'></span>
+              <p className='text'>CSS3</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-sass-original icon'></span>
+              <p className='text'>Sass</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-react-original icon'></span>
+              <p className='text'>React</p>
+            </div>
+            <div className='tc icon-text '>
+            <span className='devicon-mongodb-plain icon'></span>
+              <p className='text'>MongoDB</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-nodejs-plain icon'></span>
+              <p className='text'>node.JS</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-express-original icon'></span>
+              <p className='text'>Express</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-babel-plain icon'></span>
+              <p className='text'>Babel</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-python-plain icon'></span>
+              <p className='text'>Python</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-django-plain icon'></span>
+              <p className='text'>Django</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-postgresql-plain icon'></span>
+              <p className='text'>Postgresql</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-git-plain icon'></span>
+              <p className='text'>Git</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-github-plain icon'></span>
+              <p className='text'>Github</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-visualstudio-plain icon'></span>
+              <p className='text'>VisualStudio</p>
+            </div>
+            <div className='tc icon-text'>
+            <span className='devicon-heroku-plain icon'></span>
+              <p className='text'>Heroku</p>
+            </div>
+          </div>   
+
         </div>
 
       </div>
