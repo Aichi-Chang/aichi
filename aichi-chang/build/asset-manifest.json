@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/aichi/static/css/main.3862575c.chunk.css",
+    "main.js": "/aichi/static/js/main.457b7e26.chunk.js",
+    "main.js.map": "/aichi/static/js/main.457b7e26.chunk.js.map",
+    "runtime-main.js": "/aichi/static/js/runtime-main.5912730b.js",
+    "runtime-main.js.map": "/aichi/static/js/runtime-main.5912730b.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/aichi/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.06232324.chunk.js": "/aichi/static/js/2.06232324.chunk.js",
+    "static/js/2.06232324.chunk.js.map": "/aichi/static/js/2.06232324.chunk.js.map",
+    "index.html": "/aichi/index.html",
+    "precache-manifest.85a7c98397c48d3e67ff76d052548bb9.js": "/aichi/precache-manifest.85a7c98397c48d3e67ff76d052548bb9.js",
+    "service-worker.js": "/aichi/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/aichi/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.3862575c.chunk.css.map": "/aichi/static/css/main.3862575c.chunk.css.map",
+    "static/js/2.06232324.chunk.js.LICENSE": "/aichi/static/js/2.06232324.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5912730b.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.06232324.chunk.js",
+    "static/css/main.3862575c.chunk.css",
+    "static/js/main.457b7e26.chunk.js"
+  ]
+}
