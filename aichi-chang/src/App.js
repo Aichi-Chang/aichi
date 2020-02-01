@@ -10,18 +10,21 @@ import Contact from './components/Contact'
 import Navs from './components/Navs'
 
 
+
 function App() {
+
   return (
     <div>
       
       <HashRouter>
         
-        <TitleSequence />
-        <Projects />
-        <Information />
-        <Contact />
+          <TitleSequence />
+          <Projects />
+          <Information />
+          <Contact />
+        
 
-      <div className='nav'>
+      <div className='navs'>
         <Navs />
       </div>
 

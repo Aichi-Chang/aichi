@@ -14,66 +14,61 @@ export default function Information() {
 
 
   return (
-    <div className='info relative'>
+    <div className='info relative' id='information'>
 
       <div className='flex flex-wrap justify-center'>
         <div className='w-40-l ma4'>
-          <h2>ABOUT</h2>
+          <p className='f3'>ABOUT</p>
           <p className='mt4'>
-          I have always enjoyed creativity. Was previously a fashion designer, I am passionate about all different designs, but am also interested in more logical skills, like pattern cutting. After working in fashion for 5 years alongside with some Software Engineers, UX designers… My interest of web development started to fond. I want to have the capacity to build the product pictured in my head.
+          <br/>
+          Coming from a fashion design background, I’ve always enjoyed making things. As a designer, to create good products, it does not only require creativity but also a strong problem-solving approach. I found myself enjoying a lot of the process of learning and coming up with new solutions.
           <br/>
           <br/>
-          After completed a few online courses, I decided to immerse myself more, so I enrolled in Software Engineering Immersive course at General Assembly. I enjoy learning different new languages, working on projects with others and weirdly, debugging.
+          After working 5 years in the fashion industry, I would like to step out of this scope and explore more possibilities. Web development perfectly combines my design background and creativity with my logical thinking and enthusiasm for learning new skills. This is why I decided to dive into the world of software engineering. 
           <br/>
           <br/>
-          Like a dream, now I will be able to combine my creative background and the technical skills. I look forward to start a new career that allows me to grow and continue to hone my skills as a software developer.
+          I enrolled in the Software Engineering Immersive course at General Assembly. I have learned a lot in these 12 weeks, from coding skills to develop a good understanding of web development and practice working in a team. I look forward to starting a new career that allows me to grow and continue learning as a software developer.
+          <br/>
           </p> 
         </div>
 
         <div className='w-40-l ma4'>
-          <h2>EXPERIENCE</h2>
+          <p className='f3'>EXPERIENCE</p>
           <p className='mt4'>
-          General Assembly (London) | Software Engineer Immersive 
+          <br/>  
+          General Assembly | Software Engineer Immersive (London)
           <br/>
-          • 12 weeks immersive course
+          • 12 weeks immersive bootcamp for full-stack software development
           <br/>
-          • 4 projects done during the course (2 solo projects, and 2 team projects)
+          • 4 projects completed during the course (solo and group projects)
           <br/>
           • Daily stand-up, coding lab challenges during the course, homework.
           <br/>
-          <br/>
           </p>
 
           <p className='mt4'>
-          SHAO YEN (London) | Freelance Designer
-          <br/>
-          • Concept and art direction research
-          <br/>
-          • Garment construction and pattern cutting detail consulting
-          <br/>
-          • Creating sales sheet
-          <br/>
-          <br/>
+          Taipei Representative Office | Admin Assistant (London)
           </p>
 
           <p className='mt4'>
-          ACNE STUDIOS (Paris) | Assistant Designer
-          <br/>
-          • Collage development by hand and on Adobe Photoshop
-          <br/>
-          • Pattern cutting, draping and toile making
-          <br/>
-          • 3D prototype developing from hand sketch
-          <br/>
-          • Fabric and material research from vintage garments
+          SHAO YEN | Freelance Fashion Designer (London)
           </p>
+
+          <p className='mt4'>
+          ACNE STUDIOS | Assistant Fashion Designer (Paris)
+          </p>
+
+          <p className='mt4'>
+          Tally Weijl | Trend Analyst and Concept Designer (Paris)
+          </p>
+
 
         </div>
 
         <div className='ml5-l pl4-l ml3-ns mt3 mb6'>
-          <h2 className='pa3 mb0'>PROGRAMMING LANGUAGES</h2>
+          <p className='pa3 mb0 f3'>PROGRAMMING LANGUAGES</p>
 
-          <div className='flex flex-wrap w-60-l'>
+          <div className='flex flex-wrap w-70-l'>
             <div className='tc icon-text'>
               <span className='devicon-javascript-plain icon'></span>
               <p className='text'>JavaScript</p>
@@ -123,6 +118,10 @@ export default function Information() {
               <p className='text'>Postgresql</p>
             </div>
             <div className='tc icon-text'>
+            <span className='devicon-webpack-plain icon'></span>
+              <p className='text'>Webpack</p>
+            </div>  
+            <div className='tc icon-text'>
             <span className='devicon-git-plain icon'></span>
               <p className='text'>Git</p>
             </div>
@@ -131,13 +130,14 @@ export default function Information() {
               <p className='text'>Github</p>
             </div>
             <div className='tc icon-text'>
-            <span className='devicon-visualstudio-plain icon'></span>
-              <p className='text'>VisualStudio</p>
-            </div>
-            <div className='tc icon-text'>
             <span className='devicon-heroku-plain icon'></span>
               <p className='text'>Heroku</p>
             </div>
+            <div className='tc icon-text'>
+            <span className='devicon-visualstudio-plain icon'></span>
+              <p className='text'>VisualStudio</p>
+            </div>
+
           </div>   
 
         </div>

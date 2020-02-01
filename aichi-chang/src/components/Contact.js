@@ -3,23 +3,23 @@ import { Link } from 'react-router-dom'
 
 export default function Contact() {
   return (
-    <div className='bg-near-white'>
+    <div className='bg-near-white' id='contact'>
       <div className='flex flex-column ml5-l pl4-l ml3-ns'>
         
-        <h2 className='pa3 mt5'>CONTACT</h2>
+        <p className='pa3 mt5 f3'>CONTACT</p>
         
-        <h3 className='pa3 email ma0'>email: aichi.p.chang@gmail.com</h3>
+        <p className='pa3 email ma0 f4'>email: aichi.p.chang@gmail.com</p>
         
         <div className='flex items-center flex-wrap pa3 w-10-m mb6'>
-          <Link to='' className='ba br2 pt1 pb1 pr4 pl4 mb2 no-underline near-black pointer bg-near-white mr3-l'>
+          <a href='https://github.com/Aichi-Chang' target='blank' className='ba br2 pt1 pb1 pr4 pl4 mb2 no-underline near-black pointer bg-near-white mr3-l grow'>
             Github
-          </Link>
-          <Link to='' className='ba br2 pt1 pb1 pr4 pl4 mb2 no-underline near-black pointer bg-near-white mr3-l'>
+          </a>
+          <a href='https://phoebexxx09.tumblr.com/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 mb2 no-underline near-black pointer bg-near-white mr3-l grow'>
             Tumblr
-          </Link>
-          <Link to='' className='ba br2 pt1 pb1 pr4 pl4 mb2 no-underline near-black pointer bg-near-white'>
+          </a>
+          <a href='https://www.linkedin.com/in/aichi-chang/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 mb2 no-underline near-black pointer bg-near-white grow'>
             Linkedin
-          </Link>
+          </a>
         </div>
 
       </div>

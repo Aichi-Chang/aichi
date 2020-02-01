@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
-#root {
-  font-family: Work Sans;
+
+/* * { Box-sizing: Border-box }  */
+
+body {
+  font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -11,7 +15,6 @@
 .title {
   font-family: Work Sans;
   font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 24px;
   /* or 28px */
@@ -19,7 +22,7 @@
   text-align: center;
 }
 
-.header {
+.name {
   font-family: 'Monsieur La Doulaise', cursive;
   font-style: normal;
   font-weight: normal;
@@ -29,13 +32,13 @@
   color: #1F1F1F;
 }
 
-.nav {
+.navs {
   position: fixed;
   bottom: 5%;
   right: 5%;
 }
 
-.nav-link:hover {
+.navs-link:hover {
   color: rgb(146, 128, 223);
   background-color: rgba(141, 141, 141, 0.096);
 }
@@ -50,7 +53,7 @@
 
 
 .project-title {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .project-text {
@@ -91,6 +94,35 @@
   line-height: 127%;
 }
 
+.slide {
+  width: 800px;
+  position: relative;
+}
+
+.each-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.each-slide > span {
+  width: 80%;
+  height: 400px;
+  background-size: cover;
+  background-position: center
+}
+
+.nav[data-type='prev'] {
+  position: absolute;
+  left: 40%;
+  top: 53%;
+}
+
+.nav[data-type='next'] {
+  position: absolute;
+  left: 60%;
+  top: 53%;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -105,11 +137,37 @@
     margin-left: 20px;
   }
 
-  .nav {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 13%;
+  .navs {
+    display: flex;
+    justify-content: center;
+    width: 95%;
   }
+
+  .navs-link {
+    background-color: #f4f4f4;
+  }
+
+  .slide {
+    width: 350px;
+    position: relative;
+  }
+
+  .each-slide > span {
+    width: 100%;
+    height: 300px;
+  }
+
+  .nav[data-type='prev'] {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+  }
+  
+  .nav[data-type='next'] {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+  }
+  
 
 }
