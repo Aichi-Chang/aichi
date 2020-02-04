@@ -80,19 +80,26 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               <a href='https://project-4-workbench.herokuapp.com/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white mr3 grow'>
                 View Site
               </a>
-              <a href='https://github.com/Aichi-Chang/project-4' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white grow'>
+              <a href='https://github.com/Aichi-Chang/SEI-Project-4' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white grow'>
                 Github
               </a>
             </div>
 
             <ul className='pl3 pt3'>
-              <li>React.JS</li>
-              <li>Python</li>
-              <li>Django</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Tachyons</li>
-              <li>Webpack</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6)</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>React and React extensions</li>
+                <li>Webpack</li>
+                <li>Tachyons</li>
+                <li>Yarn</li>
+                <li>Babel</li>
+                <li>Insomnia</li>
+                <li>Python 3</li>
+                <li>Django</li>
+                <li>Heroku</li>
             </ul>
             
           </div>
@@ -118,35 +125,40 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
           </Slide>
         
           
-          <div className='w-30-l mb5 tr'>
+          <div className='w-30-l mb5'>
             
             <p className='project-title ma0-l'>
             Project 3 - The Vault
             </p>
             
             <p className=''>
-            Ijji define themselves by a focus on natural fibers, beautiful colors and interesting silhouettess. 
-            Their genderless garments informed our laid-back and non-hierarchical user experience with colorful accents.
+            The vault is an online lifestyle magazine with four different themes: second-hand clothing swap, popular locations, hot topics, and editor-selected music album, films, and book recommendations. Users will be able to register to the site. On different pages, logged in users can leave or delete comments under the articles. 
             </p>
 
-            <div className='flex items-center justify-end pt3'>
+            <div className='flex items-center pt3'>
               <a href='https://project-3-the-vault.herokuapp.com/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3 grow'>
                 View Site
               </a>
-              <a href='https://github.com/Aichi-Chang/The-Vault' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer grow'>
+              <a href='https://github.com/Aichi-Chang/SEI-Project-3' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer grow'>
                 Github
               </a>
             </div>
 
-            <ul className='pr3 pt3' dir="rtl">
-              <li>MongoDB</li>
+            <ul className='pr3 pt3'>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6)</li>
+              <li>MongoDB & Mongoose</li>
+              <li>Node.js</li>
               <li>Express</li>
-              <li>React.JS</li>
-              <li>Node.JS</li>
-              <li>Tachyons</li>
-              <li>Bulma</li>
-              <li>Mapbox</li>
+              <li>React and React extensions</li>
               <li>Webpack</li>
+              <li>Bulma</li>
+              <li>Babel</li>
+              <li>Insomnia</li>
+              <li>Heroku</li>
+              <li>Git</li>
+              <li>GitHub</li>
             </ul>
           
           </div>
@@ -175,27 +187,30 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             </p>
             
             <p className=''>
-            Ijji define themselves by a focus on natural fibers, beautiful colors and interesting silhouettess. 
-            Their genderless garments informed our laid-back and non-hierarchical user experience with colorful accents.
+            A + L is the initial of the team members for this project. It also stands for art and life. This is a platform where users can search for all kinds of exhibitions or lifestyle event info. They will be able to check the event location or get redirected to the actual event page from the map. The external API used for this project is from <a href='https://api.list.co.uk/' className='no-underline gray'>The LIST</a>.
             </p>
 
             <div className='flex items-center pt3'>
-              <a href='https://aichi-chang.github.io/Project-2/#/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3 grow'>
+              <a href='https://aichi-chang.github.io/SEI-Project-2/#/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3 grow'>
                 View Site
               </a>
-              <a href='https://github.com/Aichi-Chang/Project-2' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer grow'>
+              <a href='https://github.com/Aichi-Chang/SEI-Project-2' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer grow'>
                 Github
               </a>
             </div>
 
             <ul className='pl3 pt3'>
-              <li>React.JS</li>
-              <li>API</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bulma</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6)</li>
+              <li>React</li>
               <li>Mapbox</li>
               <li>Webpack</li>
+              <li>Bulma</li>
+              <li>Babel</li>
+              <li>Insomnia</li>
+              <li>Git</li>
+              <li>GitHub</li>
             </ul>
           
           </div>
@@ -219,7 +234,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               </div>
           </Slide>
           
-          <div className='w-30-l tr'>
+          <div className='w-30-l'>
             
             <p className='project-title ma0-l'>
             Project 1 - Space Invanders
@@ -230,7 +245,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             Their genderless garments informed our laid-back and non-hierarchical user experience with colorful accents.
             </p>
 
-            <div className='flex items-center justify-end pt3'>
+            <div className='flex items-center pt3'>
               <a href='https://aichi-chang.github.io/SEI-Project-1/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3 grow'>
                 View Site
               </a>
@@ -239,10 +254,10 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               </a>
             </div>
 
-            <ul className='pl3 pt3' dir="rtl">
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
+            <ul className='pl3 pt3'>
+              <li>JavaScript(ES6)</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
             </ul>
           
           </div>
