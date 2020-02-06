@@ -4,6 +4,10 @@
 
 /* * { Box-sizing: Border-box }  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -42,6 +46,18 @@ body {
   color: rgb(146, 128, 223);
   background-color: rgba(141, 141, 141, 0.096);
 }
+
+.nav {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+.nav-link:hover {
+  color: rgb(201, 206, 134);
+  background-color: rgba(201, 191, 223, 0.568);
+}
+
 
 .project {
   margin: 300px auto 0 auto;
