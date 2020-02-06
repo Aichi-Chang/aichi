@@ -11,7 +11,7 @@ export default function Navs() {
       < Link to='/portfolio#information' className='ba br2 pt1 pb1 pr4-l pl4-l pr3 pl3 mb2-l ml1 no-underline moon-gray pointer navs-link tc'>
         Information
       </Link>
-      < Link href='/portfolio#contact' className='ba br2 pt1 pb1 pr4-l pl4-l pr3 pl3 mb2-l ml1 no-underline moon-gray pointer navs-link tc'>
+      < Link to='/portfolio#contact' className='ba br2 pt1 pb1 pr4-l pl4-l pr3 pl3 mb2-l ml1 no-underline moon-gray pointer navs-link tc'>
         Contact
       </Link>
     </div>
