@@ -89,8 +89,6 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript (ES6)</li>
-                <li>Git</li>
-                <li>GitHub</li>
                 <li>React and React extensions</li>
                 <li>Webpack</li>
                 <li>Tachyons</li>
@@ -100,6 +98,8 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
                 <li>Python 3</li>
                 <li>Django</li>
                 <li>Heroku</li>
+                <li>Git</li>
+                <li>Github</li>
             </ul>
             
           </div>
@@ -133,6 +133,9 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             
             <p className=''>
             The vault is an online lifestyle magazine with four different themes: second-hand clothing swap, popular locations, hot topics, and editor-selected music album, films, and book recommendations. Users will be able to register to the site. On different pages, logged in users can leave or delete comments under the articles. 
+              <br/>
+              <br/>
+            I have continued working on this project after the deployment. Version 2 has a different styling for the home page, comments, and map. I have also added React Lazy Hero effection and used a different CSS framework: Tachyons.
             </p>
 
             <div className='flex items-center pt3'>
@@ -144,7 +147,16 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               </a>
             </div>
 
-            <ul className='pr3 pt3'>
+            <div className='flex items-center pt3'>
+              <a href='https://project-3-2point0.herokuapp.com/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer mr3 grow'>
+                Version 2
+              </a>
+              <a href='https://github.com/Aichi-Chang/SEI-Project-3-v2' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer grow'>
+                Github
+              </a>
+            </div>
+
+            <ul className='pl3 pt3'>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript (ES6)</li>
@@ -158,7 +170,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               <li>Insomnia</li>
               <li>Heroku</li>
               <li>Git</li>
-              <li>GitHub</li>
+              <li>Github</li>
             </ul>
           
           </div>
@@ -210,7 +222,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               <li>Babel</li>
               <li>Insomnia</li>
               <li>Git</li>
-              <li>GitHub</li>
+              <li>Github</li>
             </ul>
           
           </div>
@@ -258,6 +270,8 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
               <li>JavaScript(ES6)</li>
               <li>HTML5</li>
               <li>CSS3</li>
+              <li>Git</li>
+              <li>Github</li>
             </ul>
           
           </div>
