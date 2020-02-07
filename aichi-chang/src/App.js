@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, HashRouter } from 'react-router-dom'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import './App.css';
 import 'tachyons'
 
@@ -12,13 +12,14 @@ function App() {
 
   return (
 
-    <HashRouter>
+    <BrowserRouter>
+
       <Switch>
         <Route exact path="/" component={TitleSequence} />
         <Route exact path='/portfolio' component={Portfolio} />
 
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

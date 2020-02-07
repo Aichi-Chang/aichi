@@ -4,11 +4,12 @@ import Contact from './Contact'
 import Projects from './Projects'
 import Navs from './Navs'
 
-export default function Portfolio() {
+export default function Portfolio(props) {
+  // console.log(props.location.hash)
   return (
     <div>
       <div className='navs z-1'>
-         <Navs />
+         <Navs {...props}/>
        </div>
       <Projects />
       <Information />
