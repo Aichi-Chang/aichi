@@ -253,8 +253,8 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             </p>
             
             <p className=''>
-            Ijji define themselves by a focus on natural fibers, beautiful colors and interesting silhouettess. 
-            Their genderless garments informed our laid-back and non-hierarchical user experience with colorful accents.
+              Space Invaders is my first solo project, written by vanilla JavasCript.
+              This is a classic arcade game from the 80s. The player aims to shoot an invading alien armada, before it reaches the planet's surface using a mounted gun turret.
             </p>
 
             <div className='flex items-center pt3'>
