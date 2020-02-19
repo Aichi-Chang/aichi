@@ -7,7 +7,7 @@ import Navs from './Navs'
 export default function Portfolio(props) {
   // console.log(props.location.hash)
   return (
-    <div>
+    <div className='vh-100'>
       <div className='navs z-1'>
          <Navs {...props}/>
        </div>

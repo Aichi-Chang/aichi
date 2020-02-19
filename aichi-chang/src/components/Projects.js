@@ -27,8 +27,8 @@ const properties = {
   transitionDuration: 500,
   infinite: true,
   indicators: true,
-  arrows: true,
-  autoplay: false
+  arrows: false,
+  autoplay: true
 }
 
 const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11, p12, p13]
@@ -49,7 +49,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
 
 
 
-        <div className='project vh-100 mr4 ml4 first flex-l flex-row-l'>
+        <div className='project mr4 ml4 first flex-l flex-row-l'>
 
             <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -107,7 +107,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
 
 
 
-        <div className='vh-100 mt6 flex-l mr4 ml4 flex-row-reverse-l'>
+        <div className='mt5-l mt4 flex-l mr4 ml4 flex-row-reverse-l'>
 
         <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -178,7 +178,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
 
 
 
-        <div className='vh-100 mt6 mr4 ml4 flex-l flex-row-l'>
+        <div className='mt5-l mt4 mr4 ml4 flex-l flex-row-l'>
           
         <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -232,9 +232,9 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
 
         
 
-        <div className='vh-100 mt6 mb6 mr4 ml4 flex-l flex-row-reverse-l'>
+        <div className='mt6-l mt5 mb6 mr4 ml4 flex-l flex-row-reverse-l'>
           
-        <Slide {...properties} className='slide'>
+          <Slide {...properties} className='slide'>
                 <div className='each-slide'>
                 <span style={{'backgroundImage': `url(${slideImages[11]})`}}></span>
               </div>
