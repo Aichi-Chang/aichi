@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Slide } from 'react-slideshow-image'
 
 import p41 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p-4-1.png'
@@ -33,8 +33,33 @@ const properties = {
 
 const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11, p12, p13]
 
+const sections =  document.querySelectorAll('section')
+const bodyTag = document.querySelector('body')
+const sectionRef = useRef()
+
+function handleScroll() {
+  const topViewport = window.pageYOffset
+  const midViewport = topViewport - (window.innerHeight / 2)
+
+  sections.forEach((section, index) => {
+    const  offsetTop  = sectionRef.current
+    // const midSection = topSection - (section.offsetHeight / 2)
+
+    // const distance = midViewport - midSection
+
+    // if (distance > 0) {
+    //   bodyTag.style.background = 'red'
+    // }
+    console.log(offsetTop)
+  })
+
+}
+
+// handleScroll()
+
+
   return (
-    <div id='projects'>
+    <div id='projects' ref={sectionRef}>
 
       <div className='bg-near-white relative flex flex-wrap'>
         
@@ -49,7 +74,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
 
 
 
-        <div className='project mr4 ml4 first flex-l flex-row-l'>
+        <section className='project mr4 ml4 first flex-l flex-row-l'>
 
             <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -103,11 +128,11 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             </ul>
             
           </div>
-        </div>
+        </section>
 
 
 
-        <div className='mt5-l mt4 flex-l mr4 ml4 flex-row-reverse-l'>
+        <section className='mt5-l mt4 flex-l mr4 ml4 flex-row-reverse-l'>
 
         <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -174,11 +199,11 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             </ul>
           
           </div>
-        </div>
+        </section>
 
 
 
-        <div className='mt5-l mt4 mr4 ml4 flex-l flex-row-l'>
+        <section className='mt5-l mt4 mr4 ml4 flex-l flex-row-l'>
           
         <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -226,13 +251,13 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             </ul>
           
           </div>
-        </div>
+        </section>
 
 
 
         
 
-        <div className='mt6-l mt5 mb6 mr4 ml4 flex-l flex-row-reverse-l'>
+        <section className='mt6-l mt5 mb6 mr4 ml4 flex-l flex-row-reverse-l'>
           
           <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -275,7 +300,7 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
             </ul>
           
           </div>
-        </div>
+        </section>
         
         
       </div>
