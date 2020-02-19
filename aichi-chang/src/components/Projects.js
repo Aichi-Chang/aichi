@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useState, useEffect, useRef} from 'react'
 import { Slide } from 'react-slideshow-image'
 
 import p41 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p-4-1.png'
@@ -35,31 +35,41 @@ const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11,
 
 const sections =  document.querySelectorAll('section')
 const bodyTag = document.querySelector('body')
-const sectionRef = useRef()
+const sectionRef1 = useRef(null)
+const sectionRef2 = useRef(null)
+const sectionRef3 = useRef(null)
+const sectionRef4 = useRef(null)
 
-function handleScroll() {
+const [height, setHeight] = useState([])
+
+useEffect(() => {
+  setHeight(sectionRef1.current.offsetTop)
+}, [])
+
+const handleScroll = e => {
   const topViewport = window.pageYOffset
   const midViewport = topViewport - (window.innerHeight / 2)
 
   sections.forEach((section, index) => {
-    const  offsetTop  = sectionRef.current
-    // const midSection = topSection - (section.offsetHeight / 2)
+    const topSection = sectionRef1.current.offsetTop
+    const midSection = topSection - (section.offsetHeight / 2)
 
-    // const distance = midViewport - midSection
+    const distance = midViewport - midSection
 
-    // if (distance > 0) {
-    //   bodyTag.style.background = 'red'
-    // }
-    console.log(offsetTop)
+    if (distance > -200) {
+      console.log('hello')
+    }
+
   })
 
 }
 
-// handleScroll()
+console.log(height)
 
 
   return (
-    <div id='projects' ref={sectionRef}>
+
+    <div id='projects' >
 
       <div className='bg-near-white relative flex flex-wrap'>
         
@@ -74,7 +84,7 @@ function handleScroll() {
 
 
 
-        <section className='project mr4 ml4 first flex-l flex-row-l'>
+        <section className='project mr4 ml4 first flex-l flex-row-l' ref={sectionRef1} onScroll={handleScroll} >
 
             <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -132,7 +142,7 @@ function handleScroll() {
 
 
 
-        <section className='mt5-l mt4 flex-l mr4 ml4 flex-row-reverse-l'>
+        <section className='mt5-l mt4 flex-l mr4 ml4 flex-row-reverse-l' ref={sectionRef2} >
 
         <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -203,7 +213,7 @@ function handleScroll() {
 
 
 
-        <section className='mt5-l mt4 mr4 ml4 flex-l flex-row-l'>
+        <section className='mt5-l mt4 mr4 ml4 flex-l flex-row-l' ref={sectionRef3} >
           
         <Slide {...properties} className='slide'>
                 <div className='each-slide'>
@@ -257,7 +267,7 @@ function handleScroll() {
 
         
 
-        <section className='mt6-l mt5 mb6 mr4 ml4 flex-l flex-row-reverse-l'>
+        <section className='mt6-l mt5 mb6 mr4 ml4 flex-l flex-row-reverse-l' ref={sectionRef4}>
           
           <Slide {...properties} className='slide'>
                 <div className='each-slide'>

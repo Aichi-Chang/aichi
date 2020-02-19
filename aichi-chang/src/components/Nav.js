@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Navs() {
   return (
-    <div className='flex flex-column-ns justify-center items-center mr3'>
+    <div className='flex flex-column-ns justify-center items-start mr3'>
       < Link to='/portfolio#projects' className='ba br2 pt1 pb1 pr4-l pl4-l pr3 pl3 mb2-l ml1 no-underline gray pointer navs-link tc'>
         Projects
       </Link>

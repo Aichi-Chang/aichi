@@ -6,7 +6,7 @@ export default function Navs(props) {
 
 
   return (
-    <div className='flex flex-column-l'>
+    <div className='flex flex-column-l justify-center items-start'>
       < Link to='/portfolio#projects'  className={`ba br2 pt1 pb1 pr4-l pl4-l pr3 pl3 mb2-l ml1 no-underline near-black pointer navs-link tc ${props.location.hash === '#projects' && 'silver'}`}>
         Projects
       </ Link>
