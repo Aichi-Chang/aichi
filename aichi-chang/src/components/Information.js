@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 import { loadCSS } from 'fg-loadcss'
 
@@ -6,15 +6,25 @@ import { loadCSS } from 'fg-loadcss'
 
 export default function Information() {
 
+  const section2 = useRef()
+  const [top, setTop] = useState('')
+  const [height, setHeight] = useState('')
+
   useEffect(() => {
-    loadCSS(
-      'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
-    )
+    loadCSS('https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css')
+    setTop(section2.current.offsetTop)
+    setHeight(section2.current.offsetHeight)
   },[])
+
+  if(top && height) {
+    console.log(top)
+    console.log(height)
+  } 
+
 
 
   return (
-    <div className='info relative' id='information'>
+    <div className='info relative' id='information' ref={section2}>
 
       <div className='flex flex-wrap justify-center'>
         <div className='w-40-l ma4'>

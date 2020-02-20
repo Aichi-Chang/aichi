@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 export default function Contact() {
+
+  const section3 = useRef()
+  const [top, setTop] = useState('')
+  const [height, setHeight] = useState('')
+
+  useEffect(() => {
+    setTop(section3.current.offsetTop)
+    setHeight(section3.current.offsetHeight)
+  },[])
+
+  if(top && height) {
+    console.log(top)
+    console.log(height)
+  } 
+
   return (
-    <div className='bg-near-white' id='contact'>
+    <div className='bg-near-white' id='contact' ref={section3}>
       <div className='flex flex-column ml5-l pl4-l ml3-ns'>
         
         <p className='pa3 mt5 f3'>CONTACT</p>
