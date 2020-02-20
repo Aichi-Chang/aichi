@@ -7,42 +7,19 @@ import Navs from './Navs'
 export default function Portfolio(props) {
   // console.log(props.location.hash)
 
-  const sections =  document.querySelectorAll('section')
-  const bodyTag = document.querySelector('body')
+  const [infoData, setInfoData] = useState()
+  const [contactData, setContactData] = useState()
 
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-  })
-  
-  const handleScroll = e => {
-    const topViewport = window.pageYOffset
-    const midViewport = topViewport - (window.innerHeight / 2)
-  
-    // sections.forEach((section, index) => {
-    //   const topSection = sectionRef.current.offsetTop
-    //   const midSection = topSection - (section.offsetHeight / 2)
-  
-    //   const distance = midViewport - midSection
-  
-    //   if (distance > 0) {
-    //     console.log('hello')
-    //   }
-  
-    // })
-  
-    
-  }
 
 
   return (
-    <div className='' onScroll={handleScroll}>
+    <div className=''>
       <div className='navs z-1'>
-         <Navs {...props}/>
+         <Navs {...props} infoData={infoData} contactData={contactData} />
        </div>
-      <Projects  />
-      <Information />
-      <Contact  />
+      <Projects />
+      <Information updateInfoData={setInfoData}/>
+      <Contact updateContactData={setContactData} />
     </div>
   )
 }

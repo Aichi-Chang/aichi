@@ -4,23 +4,23 @@ import { loadCSS } from 'fg-loadcss'
 
 
 
-export default function Information() {
+export default function Information({ updateInfoData }) {
 
   const section2 = useRef()
   const [top, setTop] = useState('')
-  const [height, setHeight] = useState('')
+  // const [height, setHeight] = useState('')
 
   useEffect(() => {
     loadCSS('https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css')
     setTop(section2.current.offsetTop)
-    setHeight(section2.current.offsetHeight)
+    // setHeight(section2.current.offsetHeight)
   },[])
 
-  if(top && height) {
-    console.log(top)
-    console.log(height)
+  if(top) {
+    updateInfoData(top)
   } 
 
+  
 
 
   return (

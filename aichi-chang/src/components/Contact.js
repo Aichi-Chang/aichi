@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 
-export default function Contact() {
+export default function Contact({ updateContactData }) {
 
   const section3 = useRef()
   const [top, setTop] = useState('')
@@ -11,9 +11,8 @@ export default function Contact() {
     setHeight(section3.current.offsetHeight)
   },[])
 
-  if(top && height) {
-    console.log(top)
-    console.log(height)
+  if(top) {
+    updateContactData(top)
   } 
 
   return (

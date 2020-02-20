@@ -19,7 +19,7 @@ import p13 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/sr
 
 
 
-export default function Projects() {
+export default function Projects({ updateData }) {
 
 
 const properties = {
@@ -43,10 +43,9 @@ useEffect(() => {
   setHeight(section1.current.offsetHeight)
 },[])
 
-console.log(top)
-if (height) {console.log(height)}
 
-
+  // console.log(top)
+  // updateData(top)
 
   return (
 
