@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aichi/static/css/main.d05e2e85.chunk.css",
-    "main.js": "/aichi/static/js/main.51ad46ce.chunk.js",
-    "main.js.map": "/aichi/static/js/main.51ad46ce.chunk.js.map",
+    "main.js": "/aichi/static/js/main.5aaddc96.chunk.js",
+    "main.js.map": "/aichi/static/js/main.5aaddc96.chunk.js.map",
     "runtime-main.js": "/aichi/static/js/runtime-main.f244ff4c.js",
     "runtime-main.js.map": "/aichi/static/js/runtime-main.f244ff4c.js.map",
     "static/css/2.48cdb28b.chunk.css": "/aichi/static/css/2.48cdb28b.chunk.css",
     "static/js/2.96420fec.chunk.js": "/aichi/static/js/2.96420fec.chunk.js",
     "static/js/2.96420fec.chunk.js.map": "/aichi/static/js/2.96420fec.chunk.js.map",
     "index.html": "/aichi/index.html",
-    "precache-manifest.8b48818845180bfb0acdc9327f066541.js": "/aichi/precache-manifest.8b48818845180bfb0acdc9327f066541.js",
+    "precache-manifest.9f4adc45892b5387528d1f8860a2657b.js": "/aichi/precache-manifest.9f4adc45892b5387528d1f8860a2657b.js",
     "service-worker.js": "/aichi/service-worker.js",
     "static/css/2.48cdb28b.chunk.css.map": "/aichi/static/css/2.48cdb28b.chunk.css.map",
     "static/css/main.d05e2e85.chunk.css.map": "/aichi/static/css/main.d05e2e85.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/css/2.48cdb28b.chunk.css",
     "static/js/2.96420fec.chunk.js",
     "static/css/main.d05e2e85.chunk.css",
-    "static/js/main.51ad46ce.chunk.js"
+    "static/js/main.5aaddc96.chunk.js"
   ]
 }
