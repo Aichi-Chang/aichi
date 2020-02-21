@@ -23,7 +23,7 @@ export default function Navs(props) {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     };
-  }, [])
+  })
 
 
   return (
