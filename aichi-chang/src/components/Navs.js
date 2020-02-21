@@ -3,10 +3,6 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Navs(props) {
   // console.log(props.location.hash)
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-  })
   
   const handleScroll = e => {
     const topViewport = window.pageYOffset
@@ -18,7 +14,16 @@ export default function Navs(props) {
     midViewport < props.infoData ? projectTag.style.color = '#9280df' : projectTag.style.color = '#111111'
     midViewport > props.infoData && midViewport < props.contactData ? infoTag.style.color = '#9280df' : infoTag.style.color = '#111111'
     midViewport > props.contactData ? contactTag.style.color = '#9280df' : contactTag.style.color = '#111111'
+
+    console.log('scroll called')
   }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    };
+  }, [])
 
 
   return (
