@@ -1,6 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Slide } from 'react-slideshow-image'
 
+import p51 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p5-1.png'
+import p52 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p5-2.png'
+import p53 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p5-3.png'
+import p54 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p5-4.png'
+import p55 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p5-5.png'
 import p41 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p-4-1.png'
 import p42 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p-4-2.png'
 import p44 from '/Users/phoebec/development/aichi-chang.github.io/aichi-chang/src/assets/p-4-4.png'
@@ -31,7 +36,7 @@ const properties = {
   autoplay: true
 }
 
-const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11, p12, p13]
+const slideImages = [p41, p42, p44, p45, p31, p32, p33, p34, p21, p22, p23, p11, p12, p13, p51, p52, p53, p54, p55]
 
 const section1 = useRef()
 const [top, setTop] = useState('')
@@ -63,8 +68,65 @@ useEffect(() => {
         </div>
 
 
+        <section className='project flex-l mr4 ml4 flex-row-reverse-l first' >
 
-        <section className='project mr4 ml4 first flex-l flex-row-l' >
+            <Slide {...properties} className='slide'>
+                <div className='each-slide'>
+                <span style={{'backgroundImage': `url(${slideImages[14]})`}}></span>
+              </div>
+              <div className="each-slide">
+                <span style={{'backgroundImage': `url(${slideImages[15]})`}}></span>
+              </div>
+              <div className="each-slide">
+                <span style={{'backgroundImage': `url(${slideImages[16]})`}}></span>
+              </div>
+              <div className="each-slide">
+                <span style={{'backgroundImage': `url(${slideImages[18]})`}}></span>
+              </div>
+          </Slide>
+          
+          <div className='w-30-l mb5'>
+            
+            <p className='project-title ma0-l'>
+            BOOK-DOCTOR
+            </p>
+            
+            <p className=''>
+              Book-doctor is an online GP appointment booking system. The idea is to help ease the phone line occupation and move the booking to an online app. This app has two way login, allows GP and their patients to use. 
+              <br/>
+              <br/>
+              Patients can easily view the avalible time of their GP and book an appointment. Once booked, they will receive an email confirmation from the app. After the appointment, GP will also be able to leave medical history as a note or prescibe medicine to their patients.
+            </p>
+
+            <div className='flex items-center pt3'>
+              <a href='https://book-doctor.herokuapp.com/' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white mr3 grow'>
+                View Site
+              </a>
+              <a href='https://github.com/Aichi-Chang/bookdoctor' target='blank' className='ba br2 pt1 pb1 pr4 pl4 no-underline near-black pointer bg-near-white grow'>
+                Github
+              </a>
+            </div>
+
+            <ul className='pl3 pt3'>
+                <li>SASS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Express</li>
+                <li>NodeJS</li>
+                <li>MongoDB-Atlas</li>
+                <li>Mongoose</li>
+                <li>Webpack</li>
+                <li>Babel</li>
+                <li>Heroku</li>
+                <li>Git</li>
+                <li>Github</li>
+            </ul>
+            
+          </div>
+        </section>
+
+
+        <section className='mt5-l mt4 flex-l flex-l flex-row-l' >
 
             <Slide {...properties} className='slide'>
                 <div className='each-slide'>
