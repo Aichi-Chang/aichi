@@ -1,44 +1,25 @@
 {
   "files": {
     "main.css": "/aichi/static/css/main.d05e2e85.chunk.css",
-    "main.js": "/aichi/static/js/main.ce575c76.chunk.js",
-    "main.js.map": "/aichi/static/js/main.ce575c76.chunk.js.map",
+    "main.js": "/aichi/static/js/main.e1c5eba2.chunk.js",
+    "main.js.map": "/aichi/static/js/main.e1c5eba2.chunk.js.map",
     "runtime-main.js": "/aichi/static/js/runtime-main.f244ff4c.js",
     "runtime-main.js.map": "/aichi/static/js/runtime-main.f244ff4c.js.map",
     "static/css/2.d8e12f41.chunk.css": "/aichi/static/css/2.d8e12f41.chunk.css",
-    "static/js/2.9834e208.chunk.js": "/aichi/static/js/2.9834e208.chunk.js",
-    "static/js/2.9834e208.chunk.js.map": "/aichi/static/js/2.9834e208.chunk.js.map",
+    "static/js/2.ff100440.chunk.js": "/aichi/static/js/2.ff100440.chunk.js",
+    "static/js/2.ff100440.chunk.js.map": "/aichi/static/js/2.ff100440.chunk.js.map",
     "index.html": "/aichi/index.html",
-    "precache-manifest.a0c7f97becaf4a5f95da066ba988bd22.js": "/aichi/precache-manifest.a0c7f97becaf4a5f95da066ba988bd22.js",
+    "precache-manifest.04bf0a363282c22b2879d07149a90164.js": "/aichi/precache-manifest.04bf0a363282c22b2879d07149a90164.js",
     "service-worker.js": "/aichi/service-worker.js",
     "static/css/2.d8e12f41.chunk.css.map": "/aichi/static/css/2.d8e12f41.chunk.css.map",
     "static/css/main.d05e2e85.chunk.css.map": "/aichi/static/css/main.d05e2e85.chunk.css.map",
-    "static/js/2.9834e208.chunk.js.LICENSE": "/aichi/static/js/2.9834e208.chunk.js.LICENSE",
-    "static/media/p-1-1.png": "/aichi/static/media/p-1-1.0638b4a3.png",
-    "static/media/p-1-2.png": "/aichi/static/media/p-1-2.ed1c8bd7.png",
-    "static/media/p-1-3.png": "/aichi/static/media/p-1-3.d49acb1a.png",
-    "static/media/p-2-1.png": "/aichi/static/media/p-2-1.87eaa18c.png",
-    "static/media/p-2-2.png": "/aichi/static/media/p-2-2.f8c4f2d9.png",
-    "static/media/p-2-3.png": "/aichi/static/media/p-2-3.4c5298e2.png",
-    "static/media/p-3-1.png": "/aichi/static/media/p-3-1.b6e4853a.png",
-    "static/media/p-3-2.png": "/aichi/static/media/p-3-2.a8d64b92.png",
-    "static/media/p-3-3.png": "/aichi/static/media/p-3-3.0a09138e.png",
-    "static/media/p-3-4.png": "/aichi/static/media/p-3-4.45a1bd89.png",
-    "static/media/p-4-1.png": "/aichi/static/media/p-4-1.a6805f75.png",
-    "static/media/p-4-2.png": "/aichi/static/media/p-4-2.2585b3eb.png",
-    "static/media/p-4-4.png": "/aichi/static/media/p-4-4.c53f53b6.png",
-    "static/media/p-4-5.png": "/aichi/static/media/p-4-5.14270cec.png",
-    "static/media/p5-1.png": "/aichi/static/media/p5-1.073951d3.png",
-    "static/media/p5-2.png": "/aichi/static/media/p5-2.a199fd81.png",
-    "static/media/p5-3.png": "/aichi/static/media/p5-3.1e9b5203.png",
-    "static/media/p5-4.png": "/aichi/static/media/p5-4.288befc2.png",
-    "static/media/p5-5.png": "/aichi/static/media/p5-5.03df5758.png"
+    "static/js/2.ff100440.chunk.js.LICENSE": "/aichi/static/js/2.ff100440.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.f244ff4c.js",
     "static/css/2.d8e12f41.chunk.css",
-    "static/js/2.9834e208.chunk.js",
+    "static/js/2.ff100440.chunk.js",
     "static/css/main.d05e2e85.chunk.css",
-    "static/js/main.ce575c76.chunk.js"
+    "static/js/main.e1c5eba2.chunk.js"
   ]
 }
